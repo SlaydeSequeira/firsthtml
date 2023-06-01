@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping App</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Shopping App</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Cart</a></li>
+        <li><a href="#">Account</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="products">
+      <h2>Products</h2>
+      <ul>
+        <li>
+          <img src="product1.jpg" alt="Product 1">
+          <h3>Product 1</h3>
+          <p>Description of Product 1</p>
+          <button>Add to Cart</button>
+        </li>
+        <li>
+          <img src="product2.jpg" alt="Product 2">
+          <h3>Product 2</h3>
+          <p>Description of Product 2</p>
+          <button>Add to Cart</button>
+        </li>
+        <!-- Add more product items as needed -->
+      </ul>
+    </section>
+
+    <section id="cart">
+      <h2>Cart</h2>
+      <ul>
+        <li>
+          <img src="product1.jpg" alt="Product 1">
+          <h3>Product 1</h3>
+          <p>Price: $19.99</p>
+          <p>Quantity: 2</p>
+        </li>
+        <!-- Add more cart items as needed -->
+      </ul>
+      <button>Checkout</button>
+    </section>
+
+    <section id="account">
+      <h2>Account</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <button>Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Shopping App. All rights reserved.</p>
+  </footer>
+</body>
+</html>
